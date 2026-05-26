@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cueku Store</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="loader">
+  <div class="loader-card">
+    <h1>Cueku Store</h1>
+    <p>Trusted Since 2020</p>
+    <div class="loading-bar">
+      <span></span>
+    </div>
+  </div>
+</div>
+
+<div class="floating-stars"></div>
+
+<header class="header">
+
+  <div class="logo">
+    Cueku Store
+  </div>
+
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#footer">Contact</a>
+  </nav>
+
+</header>
+
+<section class="hero">
+
+  <img
+    src="images/banner.jpg"
+    alt="Banner"
+    class="hero-banner"
+  >
+
+  <div class="hero-content">
+
+    <h1>Cueku Store</h1>
+
+    <p>
+      Trusted Digital Marketplace Since 2020
+    </p>
+
+    <a
+      href="https://wa.me/62895419050123"
+      target="_blank"
+      class="hero-button"
+    >
+      Order via WhatsApp
+    </a>
+
+  </div>
+
+</section>
+
+<section class="search-wrapper">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Cari produk favoritmu..."
+>
+
+</section>
+
+<section class="category-wrapper">
+
+<button class="category active" data-category="All">All</button>
+
+<button class="category" data-category="Streaming">Streaming</button>
+
+<button class="category" data-category="Music">Music</button>
+
+<button class="category" data-category="AI">AI</button>
+
+<button class="category" data-category="Editing">Editing</button>
+
+<button class="category" data-category="Design">Design</button>
+
+<button class="category" data-category="VPN">VPN</button>
+
+<button class="category" data-category="Tools">Tools</button>
+
+</section>
+
+<section id="products">
+
+<div id="productGrid"></div>
+
+</section>
+
+<section id="gallery">
+
+<h2>Pricelist Gallery</h2>
+
+<div class="gallery-grid">
+
+<img src="images/catalog1.jpg">
+<img src="images/catalog2.jpg">
+<img src="images/catalog3.jpg">
+<img src="images/catalog4.jpg">
+
+</div>
+
+</section>
+
+<footer id="footer">
+
+<h3>Cueku Store</h3>
+
+<p>Trusted Digital Marketplace Since 2020</p>
+
+<div class="socials">
+
+<a href="#">Instagram</a>
+<a href="#">@cueku</a>
+
+</div>
+
+<p>
+© Since 2020 Cueku Store.
+</p>
+
+</footer>
+
+<button id="scrollTop">
+↑
+</button>
+
+<script src="products.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
